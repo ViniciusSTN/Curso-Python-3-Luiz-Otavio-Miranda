@@ -7,3 +7,5 @@ def escopo():
 
 escopo()
 print(x)
+
+# call stack -> pilhas de execução
