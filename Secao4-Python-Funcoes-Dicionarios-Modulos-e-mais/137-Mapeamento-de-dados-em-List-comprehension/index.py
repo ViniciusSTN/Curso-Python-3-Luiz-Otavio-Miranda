@@ -17,7 +17,7 @@ novos_produtos = [
 ]
 print(novos_produtos)
 
-
+# map -> if antes do for
 novos_produtos2 = [
     {**produto, 'preco': produto['preco'] * 1.05}
     if produto['preco'] > 20 else {**produto} # if ternário
